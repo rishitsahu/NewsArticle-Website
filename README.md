@@ -47,7 +47,7 @@ This is a Website which can be used by an individual who is looking for recent a
                                                         
             
 ```
-
+<img src="./2.JPG" style="width: 30%; height:100%;" />
 
 
 ## Design Decisions
