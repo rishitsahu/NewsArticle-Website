@@ -27,8 +27,8 @@ This is a Website which can be used by an individual who is looking for recent a
      virtualenv myenv (creating virtual environment)
      . myenv/Scripts/activate
      pip install -r requirements.txt
-     python manage.py runserver
- - Website is ready now at port number 8000
+     python manage.py runserver 8080
+ - Website is ready now at port number 8080
 
 ## Website Schema
 ```
@@ -63,9 +63,9 @@ This is a Website which can be used by an individual who is looking for recent a
 
 ## How it works?
 
-1. As and when the last command is run on the powershell a server is created at port no. 8000 
+1. As and when the last command is run on the powershell a server is created at port no. 8080 
 
-2. Now the user is required to provide the link shown in the powershell in a web browser in this format http://127.0.0.1:8000/.
+2. Now the user is required to provide the link shown in the powershell in a web browser in this format http://127.0.0.1:8080/.
 
 3. Firstly the keyword is routed to the scrapper as a query and the scrapper scraps the topmost results of the browser for the articles. 
 
@@ -83,6 +83,8 @@ This is a Website which can be used by an individual who is looking for recent a
 -Providing the user a choice to the drives he/she want to savw in
 
 <img src="./4.JPG" style="width: 30%; height:100%;" />
+
+<img src="./5.JPG" style="width: 30%; height:100%;" />
 
 ## Further Improvements
 1. We can futher improve the project by deploying a machine learning algorithm which by time learns which are the articles most likely saved by the users, and which are the ones which are disliked by the users and then showing the liked ones at the top and disliked ones at the bottom of the page loaded.
