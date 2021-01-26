@@ -102,7 +102,7 @@ This is a Website which can be used by an individual who is looking for recent a
 
 Name: Rishit Sahu, Anish Agarwal
 
-Email: 17uec091@lnmiit.ac.in, 
-Phone No.: +91 9588036568, 
+Email: 17uec091@lnmiit.ac.in, 17ucs024@lnmiit.ac.in
+Phone No.: +91 9588036568, +91 9079374751
 
 https://github.com/rishitsahu
