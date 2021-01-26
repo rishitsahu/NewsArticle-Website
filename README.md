@@ -43,7 +43,9 @@ This is a Website which can be used by an individual who is looking for recent a
                                     .
                                     |____Article n
                                                   |____ save button 
-                                                                   |_____Google Drive
+                                                                   |_____Google Drive Login
+                                                                                           |_____Data Uploaded
+                                                                                           |_____Search another
                                                         
             
 ```
@@ -92,7 +94,7 @@ This is a Website which can be used by an individual who is looking for recent a
 2. We can take this to a further level by designing the interface in such a way that it stores the information of the last read article by the user and loading the page from that article which was last read by the user.
 
 
-## Python packages used
+## Python packages used//to be edited
 
     - mysql
     - dotenv
