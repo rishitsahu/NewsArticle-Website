@@ -73,7 +73,7 @@ This is a Website which can be used by an individual who is looking for recent a
 ## Results
 -Following is the result for searching the keyword "Virat Kohli"
 
-<img src="./query1.JPG" style="width: 30%; height:100%;" />
+<img src="./1.JPG" style="width: 30%; height:100%;" />
 
 
 
