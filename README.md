@@ -47,6 +47,7 @@ This is a Website which can be used by an individual who is looking for recent a
                                                         
             
 ```
+
 <img src="./2.JPG" style="width: 30%; height:100%;" />
 
 
@@ -75,7 +76,13 @@ This is a Website which can be used by an individual who is looking for recent a
 
 <img src="./1.JPG" style="width: 30%; height:100%;" />
 
+-Providing the save in drive option to the user
 
+<img src="./3.JPG" style="width: 30%; height:100%;" />
+
+-Providing the user a choice to the drives he/she want to savw in
+
+<img src="./4.JPG" style="width: 30%; height:100%;" />
 
 ## Further Improvements
 1. We can futher improve the project by deploying a machine learning algorithm which by time learns which are the articles most likely saved by the users, and which are the ones which are disliked by the users and then showing the liked ones at the top and disliked ones at the bottom of the page loaded.
