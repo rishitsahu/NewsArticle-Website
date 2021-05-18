@@ -24,13 +24,10 @@ This is a Website which can be used by an individual who is looking for recent a
 - Open powershell windows in that folder by following command:
      Shift+Right Click -> Click on open powershell
 - Now run the following commands
-     -> virtualenv myenv (creating virtual environment)
-     
-     -> . myenv/Scripts/activate
-     
-     -> pip install -r requirements.txt
-     
-     -> python manage.py runserver
+     1. virtualenv myenv (creating virtual environment)
+     2. . myenv/Scripts/activate
+     3. pip install -r requirements.txt
+     4. python manage.py runserver
  - Website is ready now at port number 8000
 
 ## Website Schema
@@ -92,9 +89,11 @@ This is a Website which can be used by an individual who is looking for recent a
 <img src="./uploaded.JPG" style="width: 30%; height:100%;" />
 
 ## Further Improvements
-1. We can futher improve the project by deploying a machine learning algorithm which by time learns which are the articles most likely saved by the users, and which are the ones which are disliked by the users and then showing the liked ones at the top and disliked ones at the bottom of the page loaded.
+1. Right now we are crawling for each keyword that has been taken from the user as input. We can improve upon by maintaining a cache database for frequently asked queries from the user.
+2. Right now the web application is a good fit for a hundred of users. But as our audience increases the load on the application server would increase and we have to work upon a possible solution. One can be implementing a load balancer for the application server which can route the queries in a balanced manner. Moreover, consistent hashing can be implemented to maintain equal load on multiple servers.
+3. We can futher improve the project by deploying a machine learning algorithm which by time learns which are the articles most likely saved by the users, and which are the ones which are disliked by the users and then showing the liked ones at the top and disliked ones at the bottom of the page loaded.
 
-2. We can take this to a further level by designing the interface in such a way that it stores the information of the last read article by the user and loading the page from that article which was last read by the user.
+4. We can add more features to facilitate the user like we can add review feature in which user can add their opinions about the article they read and one can decide to read upon those articles based upon rating given by other readers.
 
 
 ## Python packages used
