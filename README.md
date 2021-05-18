@@ -24,10 +24,10 @@ This is a Website which can be used by an individual who is looking for recent a
 - Open powershell windows in that folder by following command:
      Shift+Right Click -> Click on open powershell
 - Now run the following commands
-     virtualenv myenv (creating virtual environment)
-     . myenv/Scripts/activate
-     pip install -r requirements.txt
-     python manage.py runserver 8080
+     -> virtualenv myenv (creating virtual environment)
+     -> . myenv/Scripts/activate
+     -> pip install -r requirements.txt
+     -> python manage.py runserver 8080
  - Website is ready now at port number 8080
 
 ## Website Schema
