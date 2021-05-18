@@ -25,10 +25,13 @@ This is a Website which can be used by an individual who is looking for recent a
      Shift+Right Click -> Click on open powershell
 - Now run the following commands
      -> virtualenv myenv (creating virtual environment)
+     
      -> . myenv/Scripts/activate
+     
      -> pip install -r requirements.txt
-     -> python manage.py runserver 8080
- - Website is ready now at port number 8080
+     
+     -> python manage.py runserver
+ - Website is ready now at port number 8000
 
 ## Website Schema
 ```
@@ -67,7 +70,7 @@ This is a Website which can be used by an individual who is looking for recent a
 
 1. As and when the last command is run on the powershell a server is created at port no. 8080 
 
-2. Now the user is required to provide the link shown in the powershell in a web browser in this format http://127.0.0.1:8080/.
+2. Now the user is required to provide the link shown in the powershell in a web browser in this format http://127.0.0.1:8000/.
 
 3. Firstly the keyword is routed to the scrapper as a query and the scrapper scraps the topmost results of the browser for the articles. 
 
@@ -94,13 +97,55 @@ This is a Website which can be used by an individual who is looking for recent a
 2. We can take this to a further level by designing the interface in such a way that it stores the information of the last read article by the user and loading the page from that article which was last read by the user.
 
 
-## Python packages used//to be edited
+## Python packages used
 
-    - mysql
-    - dotenv
-    - body-parser
-    - @google-cloud/translate
-    - nodemon
+asgiref==3.3.1
+beautifulsoup4==4.9.3
+cachetools==4.2.0
+certifi==2020.12.5
+chardet==4.0.0
+click==7.1.2
+cssselect==1.1.0
+Django==3.1.4
+feedfinder2==0.0.4
+feedparser==6.0.2
+filelock==3.0.12
+google-api-core==1.24.1
+google-api-python-client==1.12.8
+google-auth==1.24.0
+google-auth-httplib2==0.0.4
+google-auth-oauthlib==0.4.2
+googleapis-common-protos==1.52.0
+httplib2==0.18.1
+idna==2.10
+jieba3k==0.35.1
+joblib==1.0.0
+lxml==4.6.2
+newspaper3k==0.2.8
+nltk==3.5
+oauthlib==3.1.0
+Pillow==8.1.0
+protobuf==3.14.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+python-dateutil==2.8.1
+pytz==2020.5
+PyYAML==5.3.1
+regex==2020.11.13
+requests==2.25.1
+requests-file==1.5.1
+requests-oauthlib==1.3.0
+rsa==4.6
+sgmllib3k==1.0.0
+six==1.15.0
+soupsieve==2.1
+sqlparse==0.4.1
+tinysegmenter==0.3
+tldextract==3.1.0
+tqdm==4.55.1
+uritemplate==3.0.1
+urllib3==1.26.2
+
 
 ## Author
 
