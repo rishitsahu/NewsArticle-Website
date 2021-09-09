@@ -1,8 +1,8 @@
-# B.Tech. Project
+# NewsArticle Website
 
-## Problem Statement
+## Description
 
-Create a web application/site that extracts only relevant articles on the provided query. In addition, also provide the user the choice to save those articles on their respective google drive.
+Created a web application/site that extracts only relevant articles on the provided query. In addition, also provide the user the choice to save those articles on their respective google drive.
 
 ## Tech Stack
 
